@@ -11,7 +11,13 @@ fetch('http://localhost:3000/rooms', {
   },
 })
   .then((response) => response.json())
-  .then((json) => console.log(json));
+  .then((data) => {
+                data.rooms.forEach(room => {
+                    // console.log(film);
+                    roomsREmaining(room)
+                    // getOneFilm(film)
+                });
+            });
 
 
   function roomsRemaining(rooms) {
