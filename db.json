@@ -1,8 +1,8 @@
 {
     "rooms": [
         {
-            "roomId": "1",
-            "roomAmount":"15"
+            "roomId": 1,
+            "roomAmount": 15
         }
  
     ]
